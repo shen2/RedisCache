@@ -1,0 +1,20 @@
+{
+	"name": "shen2/redis-cache",
+	"description": "RedisCache implements PSR-6",
+	"minimum-stability": "stable",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Shen Zhenyu",
+			"email": "zhenyupku@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"ext-redis": "*",
+		"shen2/easy-redis": "dev-master"
+	},
+	"autoload": {
+		"psr-4": { "RedisCache\\": "src/" }
+	}
+}
